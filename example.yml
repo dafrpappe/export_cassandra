@@ -1,0 +1,13 @@
+credentials:
+  username: 'cassandra_user'
+  password: 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+cluster:
+  contact_points: 
+    - 192.168.0.10
+    - 192.168.0.11
+    - 192.168.0.12
+    - 192.168.0.13
+    - 192.168.0.14
+  port: 9042
+  keyspace: 'my_keyspace'
+  local_dc: 'MY_DC'
